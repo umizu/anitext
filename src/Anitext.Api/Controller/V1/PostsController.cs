@@ -14,7 +14,7 @@ public class PostsController : ControllerBase
         var post = new Post
         {
             Id = Guid.NewGuid(),
-            Text = $"hi from posts v2: {id}"
+            Text = $"hi from posts v1: {id}"
         };
 
         return Ok(post);
