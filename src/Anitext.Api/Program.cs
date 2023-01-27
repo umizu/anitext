@@ -1,7 +1,5 @@
-using Anitext.Api.Options;
 using Anitext.Api.Registrars;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.Versioning;
 
 var builder = WebApplication.CreateBuilder(args);
